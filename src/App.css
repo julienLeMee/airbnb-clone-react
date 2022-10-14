@@ -13,6 +13,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -22,7 +23,27 @@ nav {
 }
 
 .nav--logo {
-  height: 100%;
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.content {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+.content--picture {
+  max-width: 400px;
+  align-self: center;
+}
+
+.content--title {
+  margin-bottom: 16px;
+}
+
+.content--description {
+  margin-top: 0;
 }
