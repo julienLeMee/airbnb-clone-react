@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Content from '../components/Content'
-import Footer from '../components/Footer'
+import Card from '../components/Card'
 import './App.css'
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Content />
-      <Footer />
+      <Card />
     </div>
   )
 }
