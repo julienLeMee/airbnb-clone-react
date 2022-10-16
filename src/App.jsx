@@ -9,7 +9,15 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Content />
-      <Card />
+      <Card
+        img="palmiers.jpg"
+        // img="https://picsum.photos/200/300"
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Summer vibes"
+        price={136}
+      />
     </div>
   )
 }
