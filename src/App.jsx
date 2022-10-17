@@ -10,12 +10,14 @@ export default function App() {
     return (
       <Card
         key={card.id}
-        img={card.coverImg}
-        rating={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        country={card.location}
-        title={card.title}
-        price={card.price}
+        {...card} // spread operator (to pass all the props)
+        // img={card.coverImg}
+        // rating={card.stats.rating}
+        // reviewCount={card.stats.reviewCount}
+        // country={card.location}
+        // title={card.title}
+        // price={card.price}
+        // openSpots={card.openSpots}
       />
     )
   })
